@@ -1,0 +1,62 @@
+html {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 140%;
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+    background: #45454d;
+    color: #45454d;
+}
+
+
+#main {
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2%;
+    margin-top: 20px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-heading {
+    color: #ff4893;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#calculate {
+    width: 40%;
+    margin-top: 15px;
+    padding: 1.5%;
+    border-radius: 8px;
+    border: none;
+    background: #ff4893;
+    color: #fff;
+    font-size: 110%;
+}
+
+#output {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
